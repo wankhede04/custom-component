@@ -1,22 +1,10 @@
-Working
 <div class="swiper-container">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
+  <div class="swiper-wrapper" >
+    <div class="swiper-slide" *ngFor="let detail of boxDetails" style="color: #607d8b">
+      <img src="assets/images/breaking-bad/{{detail.title}}.jpg" alt="{{detail.title}}">
+      <label for="fullName">{{detail.fullName}}</label>
+      <label for="quote">{{detail.quote}}</label>
+    </div>
   </div>
-  <!-- If we need pagination -->
   <div class="swiper-pagination"></div>
-
-  <!-- If we need navigation buttons -->
-  <!-- <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div> -->
-
-  <!-- If we need scrollbar -->
-  <!-- <div class="swiper-scrollbar"></div> -->
 </div>

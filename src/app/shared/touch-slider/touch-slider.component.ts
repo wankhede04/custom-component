@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-touch-slider',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./touch-slider.component.scss']
 })
 export class TouchSliderComponent implements OnInit {
+
+  @Input()
+  public boxDetails: Array<any>;
 
   constructor() { }
 
