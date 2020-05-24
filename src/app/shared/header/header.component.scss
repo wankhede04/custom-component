@@ -1,0 +1,31 @@
+.app-header {
+  position: fixed;
+  top: 0;
+  // background: #010000;
+  width: 100%;
+  box-shadow: 0 0 0 3px #272727;
+  display: flex;
+  color: #607d8b;
+
+  img {
+    padding: 8px;
+    width: 68%;
+  }
+
+  .c1 {
+    background: #010000;
+    text-align: center;
+  }
+
+  .c2 {
+    background: #010000;
+    margin-left: 3px;
+    width: 100%;
+
+    .amazon {
+      i {
+        padding: 13px;
+      }
+    }
+  }
+}
