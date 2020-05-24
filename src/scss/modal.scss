@@ -1,0 +1,19 @@
+.modal-container {
+  padding: 10px;
+  background-color: #010000;
+  color: #FFFFFF;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #CCCCCC;
+  
+    i {
+      cursor: pointer;
+    }
+  }
+  .content {
+    margin: 10px 0;
+  }
+}
