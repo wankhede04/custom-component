@@ -1,6 +1,6 @@
 <div class="swiper-container">
   <div class="swiper-wrapper" >
-    <div class="swiper-slide" *ngFor="let detail of boxDetails" style="color: #607d8b">
+    <div class="swiper-slide" *ngFor="let detail of boxDetails" style="color: #607d8b" (click)="goToDetails()">
       <img src="assets/images/breaking-bad/{{detail.title}}.jpg" alt="{{detail.title}}">
       <label for="fullName">{{detail.fullName}}</label>
       <label for="quote">{{detail.quote}}</label>

@@ -15,6 +15,7 @@
   .c1 {
     background: #010000;
     text-align: center;
+    cursor: pointer;
   }
 
   .c2 {
@@ -23,9 +24,22 @@
     width: 100%;
 
     .amazon {
+      i[id=play] {
+        color: #39ff14;
+      }
+
+      i[id=pause] {
+        color: #15f4ee;
+      }
+
       i {
         padding: 13px;
+        cursor: pointer;
       }
     }
   }
+}
+
+audio {
+  width: 100px;
 }
