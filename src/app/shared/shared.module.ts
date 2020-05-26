@@ -13,7 +13,7 @@ import { BrandLinksComponent } from './brand-links/brand-links.component';
     CommonModule,
     NgbModule
   ],
-  exports: [HeaderComponent, FooterComponent, TouchSliderComponent],
+  exports: [HeaderComponent, FooterComponent, TouchSliderComponent, BrandLinksComponent],
   entryComponents: [AboutComponent]
 })
 export class SharedModule { }

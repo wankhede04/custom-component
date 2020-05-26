@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DetailsComponent } from './details/details.component';
+import { HomeComponent } from './home/home.component';
+import { ReadsComponent } from './reads/reads.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    DetailsComponent
+    DetailsComponent,
+    HomeComponent,
+    ReadsComponent
   ],
   imports: [
     BrowserModule,
