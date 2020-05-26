@@ -1,0 +1,57 @@
+.animate {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #272727;
+  margin: 5px;
+  border-radius: 20%;
+  box-shadow: 0 5px 15px -5px #000000;
+  color: #007bff;
+  overflow: hidden;
+  position: relative;
+}
+
+.animate i {
+  line-height: 37px;
+  left: 10px;
+  align-items: center;
+  margin-left: 10px;
+  transition: 0.2s linear;
+}
+
+.animate:hover i {
+  transform: scale(1.15);
+  color: #272727;
+}
+
+.animate::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 125%;
+  background: #007bff;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.animate:hover::before {
+  animation: blueSlide 1.0s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes blueSlide {
+  0% {
+    top: -110%;
+    left: 90%;
+  }
+  50% {
+    top: 10%;
+    left: -30%;
+  }
+  100% {
+    top: -10%;
+    left: -10%;
+  }
+}
