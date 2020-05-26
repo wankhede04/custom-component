@@ -1,11 +1,30 @@
 <div class="brand-links">
-  <a class="animate" (click)="routeTo('home')">
+  <a class="animate" (click)="routeTo('home')" [ngbTooltip]="Home" placement="bottom">
     <i class="fa fa-home" aria-hidden="true"></i>
   </a>
-  <a class="animate" (click)="routeTo('dashboard')">
+  <a class="animate" (click)="routeTo('dashboard')" [ngbTooltip]="Dashboard" placement="bottom">
     <i class="fa fa-laptop" aria-hidden="true"></i>
   </a>
-  <a class="animate" (click)="routeTo('reads')">
+  <a class="animate" (click)="routeTo('reads')" [ngbTooltip]="Reads" placement="bottom">
     <i class="fa fa-anchor" aria-hidden="true"></i>
   </a>
 </div>
+
+<ng-template #Home>
+  <div class="container">
+    <b>HOME</b> <br>
+    What the fuck I'm looing at?
+  </div>
+</ng-template>
+
+<ng-template #Dashboard>
+  <div style="color: #007BFF;">
+    <b>Dashboard</b>
+  </div>
+</ng-template>
+
+<ng-template #Reads>
+  <div style="color: #007BFF;">
+    <b>Reads</b>
+  </div>
+</ng-template>
