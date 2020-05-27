@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { DetailsComponent } from './details/details.component';
 import { HomeComponent } from './home/home.component';
 import { ReadsComponent } from './reads/reads.component';
+import { AmazonComponent } from './amazon/amazon.component';
 
 const routes: Routes = [
   {
@@ -15,7 +16,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent},
   { path: 'details', component: DetailsComponent},
   { path: 'reads', component: ReadsComponent},
-  { path: 'amazon', component: ReadsComponent}
+  { path: 'amazon', component: AmazonComponent}
 ];
 
 @NgModule({
