@@ -9,7 +9,7 @@
     <div class="text-right amazon">
       <i id="play" *ngIf="!isActive" class="fa fa-play-circle" style="box-shadow: 0 3px #39ff14;" (click)="audioPlay(true)"></i>
       <i id="pause" *ngIf="isActive" class="fa fa-pause-circle" style="box-shadow: 0 3px #15f4ee;" (click)="audioPlay(false)"></i>
-      <i class="fa fa-amazon"></i>
+      <i class="fa fa-amazon" (click)="goToAmazon()"></i>
     </div>
   </div>
 </header>

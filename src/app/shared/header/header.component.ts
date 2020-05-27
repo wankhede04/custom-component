@@ -28,7 +28,11 @@ export class HeaderComponent implements OnInit {
   }
 
   public goToDashboard() {
-    this.router.navigate(['/dashboard'])
+    this.router.navigate(['/dashboard']);
+  }
+
+  public goToAmazon() {
+    this.router.navigate(['/amazon']);
   }
 
 }

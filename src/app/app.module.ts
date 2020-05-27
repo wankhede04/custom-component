@@ -9,6 +9,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { DetailsComponent } from './details/details.component';
 import { HomeComponent } from './home/home.component';
 import { ReadsComponent } from './reads/reads.component';
+import { AmazonComponent } from './amazon/amazon.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ReadsComponent } from './reads/reads.component';
     DashboardComponent,
     DetailsComponent,
     HomeComponent,
-    ReadsComponent
+    ReadsComponent,
+    AmazonComponent
   ],
   imports: [
     BrowserModule,
