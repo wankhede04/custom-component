@@ -6,9 +6,10 @@ import { AboutComponent } from './about/about.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TouchSliderComponent } from './touch-slider/touch-slider.component';
 import { BrandLinksComponent } from './brand-links/brand-links.component';
+import { CardFxComponent } from './card-fx/card-fx.component';
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, AboutComponent, TouchSliderComponent, BrandLinksComponent],
+  declarations: [HeaderComponent, FooterComponent, AboutComponent, TouchSliderComponent, BrandLinksComponent, CardFxComponent],
   imports: [
     CommonModule,
     NgbModule
