@@ -14,7 +14,7 @@ import { CardFxComponent } from './card-fx/card-fx.component';
     CommonModule,
     NgbModule
   ],
-  exports: [HeaderComponent, FooterComponent, TouchSliderComponent, BrandLinksComponent],
+  exports: [HeaderComponent, FooterComponent, TouchSliderComponent, BrandLinksComponent, CardFxComponent],
   entryComponents: [AboutComponent]
 })
 export class SharedModule { }
