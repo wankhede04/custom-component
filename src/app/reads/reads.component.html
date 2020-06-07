@@ -1,3 +1,11 @@
-<div class="container">
+<section class="container">
   Reads working
-</div>
+  <hr>
+  <div class="row" style=" display: flex; width: 91%; margin: 0 auto;">
+    <app-card-fx
+      *ngFor="let count of counts"
+      [cardTitle]="'text'"
+      [cardImageTitle]=""
+    ></app-card-fx>
+  </div>
+</section>
