@@ -10,6 +10,7 @@ import { DetailsComponent } from './details/details.component';
 import { HomeComponent } from './home/home.component';
 import { ReadsComponent } from './reads/reads.component';
 import { AmazonComponent } from './amazon/amazon.component';
+import { EncryptionComponent } from './utils/encryption/encryption.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AmazonComponent } from './amazon/amazon.component';
     DetailsComponent,
     HomeComponent,
     ReadsComponent,
-    AmazonComponent
+    AmazonComponent,
+    EncryptionComponent
   ],
   imports: [
     BrowserModule,
