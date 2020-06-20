@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +11,6 @@ import { DetailsComponent } from './details/details.component';
 import { HomeComponent } from './home/home.component';
 import { ReadsComponent } from './reads/reads.component';
 import { AmazonComponent } from './amazon/amazon.component';
-import { EncryptionComponent } from './utils/encryption/encryption.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +19,12 @@ import { EncryptionComponent } from './utils/encryption/encryption.component';
     DetailsComponent,
     HomeComponent,
     ReadsComponent,
-    AmazonComponent,
-    EncryptionComponent
+    AmazonComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     AppRoutingModule,
     SharedModule
   ],
