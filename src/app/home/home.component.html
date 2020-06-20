@@ -1,3 +1,11 @@
 <div class="container">
   Home working
+
+  <div class=" row col-6 input-box">
+    <input type="text" [(ngModel)]="inputValues.getValue" placeholder="Enter the string to encrypt">
+    <input type="text" [(ngModel)]="inputValues.putValue" placeholder="Get encrypted text">
+    <div class="submit-button">
+      <button (click)="generateHash()"> Generate Hash </button>
+    </div>
+  </div>
 </div>
