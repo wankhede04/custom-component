@@ -1,0 +1,53 @@
+.content {
+  justify-content: center;
+}
+
+.input-box {
+  display: block;
+
+  a {
+    cursor: pointer;
+  }
+}
+
+input {
+  position: relative;
+  width: 92%;
+  height: 40px;
+  border: none;
+  margin: 15px 0 20px;
+  background: transparent;
+  outline: none;
+  padding: 0 20px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: -4px -4px 10px rgba(0, 0, 0, 1),
+              inset 4px 4px 10px rgba(39, 39, 39, 0.5),
+              inset -4px -4px 10px rgba(0, 0, 0, 1),
+              4px 4px 10px rgba(39, 39, 39, 0.5),
+}
+
+button {
+  width: fit-content;
+  cursor: pointer;
+  color: #333;
+  background: #fff;
+  font-size: 15px;
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 2% 8% 0 0;
+  border: none;
+  border-radius: 8px;
+}
+
+button:active {
+  background: #333;
+  color: #fff;
+}
+
+.submit-button {
+  text-align-last: right;
+ }
