@@ -34,7 +34,7 @@ export class TextEncryptComponent implements OnInit {
 
   public generateHash() {
     let encrypt = new Encryption();
-    this.inputValues.putValue = encrypt.encrypt(this.inputValues.getValue);
+    this.inputValues.putValue = encrypt.encrypt256(this.inputValues.getValue);
   }
 
   public copyEncryptText() {
