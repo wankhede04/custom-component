@@ -8,23 +8,31 @@
   <a class="animate" (click)="routeTo('reads')" [ngbTooltip]="Reads" placement="bottom">
     <i class="fa fa-anchor" aria-hidden="true"></i>
   </a>
+  <a class="animate" (click)="routeTo('tools')" [ngbTooltip]="Tools" placement="bottom">
+    <i class="fa fa-magnet" aria-hidden="true"></i>
+  </a>
 </div>
 
 <ng-template #Home>
   <div class="container">
-    <b>HOME</b> <br>
-    What the fuck I'm looing at?
+    <b>HOME</b>
   </div>
 </ng-template>
 
 <ng-template #Dashboard>
-  <div style="color: #fff;">
-    <b>Dashboard</b>
+  <div class="container">
+    <b>DASHBOARD</b>
   </div>
 </ng-template>
 
 <ng-template #Reads>
-  <div style="color: #fff;">
-    <b>Reads</b>
+  <div class="container">
+    <b>READS</b>
+  </div>
+</ng-template>
+
+<ng-template #Tools>
+  <div class="container">
+    <b>TOOLS</b>
   </div>
 </ng-template>
