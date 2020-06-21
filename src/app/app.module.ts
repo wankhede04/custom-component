@@ -12,6 +12,8 @@ import { HomeComponent } from './home/home.component';
 import { ReadsComponent } from './reads/reads.component';
 import { AmazonComponent } from './amazon/amazon.component';
 import { ToolsComponent } from './tools/tools.component';
+import { TextEncryptComponent } from './tools/text-encrypt/text-encrypt.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -21,16 +23,19 @@ import { ToolsComponent } from './tools/tools.component';
     HomeComponent,
     ReadsComponent,
     AmazonComponent,
-    ToolsComponent
+    ToolsComponent,
+    TextEncryptComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    NgbModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [TextEncryptComponent]
 })
 export class AppModule { }
