@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { ReadsComponent } from './reads/reads.component';
 import { AmazonComponent } from './amazon/amazon.component';
 import { ToolsComponent } from './tools/tools.component';
+import { ResumeComponent } from './resume/resume.component';
 
 const routes: Routes = [
   {
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'details', component: DetailsComponent},
   { path: 'reads', component: ReadsComponent},
   { path: 'amazon', component: AmazonComponent},
-  { path: 'tools', component: ToolsComponent }
+  { path: 'tools', component: ToolsComponent },
+  { path: 'resume', component: ResumeComponent }
 ];
 
 @NgModule({

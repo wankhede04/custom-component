@@ -14,6 +14,7 @@ import { AmazonComponent } from './amazon/amazon.component';
 import { ToolsComponent } from './tools/tools.component';
 import { TextEncryptComponent } from './tools/text-encrypt/text-encrypt.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ReadsComponent,
     AmazonComponent,
     ToolsComponent,
-    TextEncryptComponent
+    TextEncryptComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,

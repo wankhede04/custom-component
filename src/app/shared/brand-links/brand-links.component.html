@@ -11,6 +11,9 @@
   <a class="animate" (click)="routeTo('tools')" [ngbTooltip]="Tools" placement="bottom">
     <i class="fa fa-magnet" aria-hidden="true"></i>
   </a>
+  <a class="animate" (click)="routeTo('resume')" [ngbTooltip]="Resume" placement="bottom">
+    <i class="fa fa-folder" aria-hidden="true"></i>
+  </a>
 </div>
 
 <ng-template #Home>
@@ -34,5 +37,11 @@
 <ng-template #Tools>
   <div class="container">
     <b>TOOLS</b>
+  </div>
+</ng-template>
+
+<ng-template #Resume>
+  <div class="container">
+    <b>RESUME</b>
   </div>
 </ng-template>
