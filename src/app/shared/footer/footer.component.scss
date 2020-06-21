@@ -14,7 +14,7 @@
   position: fixed;
   padding-bottom: 8px;
   padding-top: 8px;
-  bottom: 0px;
+  bottom: 0%;
   font-size: 0.9em;
   background-color: #010000;
   z-index: 999;
@@ -80,4 +80,10 @@ p {
 hr {
   margin: 0;
   margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .app-footer {
+    position: relative;
+  }
 }
